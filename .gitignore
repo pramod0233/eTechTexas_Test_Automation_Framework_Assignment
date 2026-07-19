@@ -1,0 +1,15 @@
+# Maven
+target/
+
+# TestNG
+test-output/
+
+# Logs
+logs/
+*.log
+
+# Screenshots
+screenshots/
+
+# Reports
+report.html

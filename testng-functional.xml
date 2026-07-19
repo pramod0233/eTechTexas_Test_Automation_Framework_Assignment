@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI Automation Test Suite">
+	<test name="Agent And Visitor Chat Functional Tests" parallel="methods" thread-count="2">
+	<parameter name="env" value="${env}"></parameter>
+		<parameter name="browser" value="${browser}"></parameter>
+		<parameter name="isHeadless" value="${isHeadless}"></parameter>
+		<classes>
+			<class name="com.ui.tests.LogInPageTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
